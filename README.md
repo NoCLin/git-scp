@@ -25,13 +25,8 @@ pip install git-scp
 usage: git-scp [-h] [remote]
 ```
 
-```
-git-scp user@server:/path/to/dir
-upload to user@server:/path/to/dir
-
-git-scp
-upload to last path
-```
+`git-scp user@server:/path/to/dir` : upload to user@server:/path/to/dir
+`git-scp`: upload to last path
 
 ## reference
 
