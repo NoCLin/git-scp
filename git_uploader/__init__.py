@@ -1,8 +1,6 @@
 import argparse
 import subprocess
 
-import sys
-
 __version__ = "0.1.0"
 
 
@@ -22,8 +20,8 @@ def cmd_call(cmd, print_stdout=True):
 
 
 def compare_local_and_remote(remote_server, remote_dir):
-    local_show = cmd_call(f"git show").strip()
-    remote_show = (cmd_call(f"ssh {remote_server} 'cd {remote_dir} && git show'")).strip()
+    local_show = cmd_call(f"git rev-parse HEAD").strip()
+    remote_show = (cmd_call(f"ssh {remote_server} 'cd {remote_dir} && git rev-parse HEAD'")).strip()
 
     # fixture for my env
     if remote_show.find("Connection to") > -1 and remote_show.find("[tcp/ssh] succeeded!"):
