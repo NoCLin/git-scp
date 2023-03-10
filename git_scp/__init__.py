@@ -1,7 +1,7 @@
 import argparse
 import subprocess
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 
 def cmd_call(cmd, print_stdout=True):
