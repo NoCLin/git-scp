@@ -2,7 +2,7 @@ import os
 import tempfile
 import unittest
 from shutil import rmtree
-from git_uploader import cmd_call, compare_local_and_remote, upload
+from git_scp import cmd_call, compare_local_and_remote, upload
 
 remote_server = "dl-ubuntu"
 

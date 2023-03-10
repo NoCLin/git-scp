@@ -1,12 +1,12 @@
 from setuptools import find_packages
 from distutils.core import setup
-from git_uploader import __version__
+from git_scp import __version__
 
 setup(
-    name='git_uploader',
+    name='git-scp',
     version=__version__,
     packages=find_packages(),
     entry_points={
-        'console_scripts': ['git-uploader = git_uploader:main'],
+        'console_scripts': ['git-scp = git_scp:main'],
     }
 )
