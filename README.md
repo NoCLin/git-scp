@@ -2,7 +2,7 @@
 
 [PyPI](https://pypi.org/project/git-scp/)
 
-Upload your Git Repo to Server directly (without Git push and pull).
+Upload your Git Repo to Server directly (without Git push, pull and server).
 
 As we are all aware, Git over SSH/TCP functions effectively and Git is a decentralized protocol.
 
