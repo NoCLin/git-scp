@@ -15,8 +15,16 @@ By simply typing `git-scp user@server:/path/to/dir`, it will upload the current 
 
 ## Install
 
+recommended:
+
 ```
-pip install git-scp
+pipx install git-scp
+```
+
+or
+
+```
+pipx install git-scp
 ```
 
 ## Usage
