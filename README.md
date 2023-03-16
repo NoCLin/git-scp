@@ -24,7 +24,7 @@ pipx install git-scp
 or
 
 ```
-pipx install git-scp
+pip install git-scp
 ```
 
 ## Usage
